@@ -1,0 +1,158 @@
+.about {
+  background-color: black;
+}
+
+.abtMaincontainer {
+  display: flex;
+}
+
+.abtCard {
+  display: flex;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 1px;
+  margin: 1rem;
+}
+
+
+
+.abtCard-body {
+  margin-left: 1rem;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.vision {
+  margin: 1rem;
+  padding: 1rem;
+  width: 60vw;
+  word-wrap: break-word;
+  color: white;
+
+}
+
+.abtheadings {
+  color: #B09067;
+}
+
+
+.box1 {
+  background-color: #e2dbd3;
+
+}
+
+.box2 {
+  background-color: #B09067;
+}
+
+.abtbuttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1.3rem;
+  margin-right: 1rem;
+
+}
+
+.aboutpage{
+padding: 1rem;
+}
+
+.aboutpage {
+  color: white;
+  padding: 1.5rem;
+}
+
+/* CSS for 17-inch Laptop */
+@media screen and (min-width: 1367px) {
+  .abtMaincontainer {
+    padding: 1rem;
+  }
+
+
+  .abtboxcontent {
+    font-size: 1.7rem;
+  }
+
+  .aboutpage p {
+    font-size: 1.7rem;
+
+  }
+
+  .card-text {
+    font-size: 2.1rem;
+    margin-top: 1rem;
+  }
+  .abtCard {
+    margin: 2rem;
+  }
+  
+
+}
+
+/* css for phone */
+
+@media screen and (max-width: 768px) {
+  .abtboxcontent {
+    font-size: 0.8rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .aboutpage p {
+    font-size: 1rem;
+  }
+
+  
+  .abtbuttons{
+    font-size: 0.9rem;
+  }
+  .box1 {
+    width: 10rem;
+  }
+
+  .box2 {
+    width: 10rem;
+  }
+  .vision {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  
+  }
+}
+
+/* CSS for 14-inch Laptop */
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+  .abtMaincontainer {
+    padding: 1rem;
+  }
+  .abtboxcontent {
+    font-size: 1.3rem;
+  }
+
+  .aboutpage p {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+  }
+
+  .box1 {
+    background-color: #e2dbd3;
+    height: 12rem;
+    width: 32rem;
+    margin-top: 4rem;
+    margin-left: 45px;
+  }
+
+  .box2 {
+    background-color: #B09067;
+    height: 12rem;
+    width: 32rem;
+    margin-left: 45px;
+
+
+  }
+ 
+} 

@@ -1,0 +1,27 @@
+
+.doctitle {
+    font-family: Audiowide, sans-serif;
+    margin-top: 40px;
+    margin-left: 60px;
+  }
+  
+  .doctable{
+    margin-left: 70px;
+
+  }
+  #fileTable {
+    width: 100%; 
+  }
+  
+  #fileTable th, #fileTable td {
+    min-width: 250px; 
+  }
+  
+ 
+  #fileTable th.fields {
+    width: 20%; 
+  }
+  
+  #fileTable td.fields {
+    width: 20%; 
+  }

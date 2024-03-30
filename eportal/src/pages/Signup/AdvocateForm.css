@@ -1,0 +1,187 @@
+.step{
+    display: flex;
+    padding: 3rem;
+    background-color: #E8DFC5;
+    justify-content: space-between;
+
+}
+
+.advocLeftbox{
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 25rem;
+    background-color: #eaece1;
+    text-align: center;
+    align-items: center;
+}
+
+.advocRightbox{
+    padding: 3rem;
+    width: 60rem;
+    background-color: #eaece1;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+.bar{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Audiowide', sans-serif;
+}
+.contactContainer{
+    padding: 50px;
+}
+.popbuttons{
+    margin-top: 4rem;
+}
+.contactButtons{
+    margin-top: 4rem;
+}
+.form-group {
+    margin-bottom: 20px; 
+    text-align: left;
+}
+.col-form-label{
+    font-size: larger;
+}
+.barverify{
+    display: flex;
+}
+.barverify input{
+    margin-right: 1.5rem;
+    flex-grow: 1;
+}
+
+.inputs input{
+    background-color: rgb(12, 23, 7,0.5);
+
+
+    
+}
+.inputs select{
+    background-color: rgb(12, 23, 7,0.5);
+
+}
+#dob{
+    background-color: rgb(12, 23, 7,0.5);
+
+}
+
+.advbuttons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.form-check{
+    margin-top: 1.2rem;
+}
+.inputs{
+    margin-top: 23px;
+}
+.otpInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.otpInput button{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+.otpInput input{
+    height: 3rem;
+    width: 12rem;
+    
+}
+
+.saveNext{
+    border-radius: 9px;
+    color: white;
+    background-color: grey;
+    font-weight:600;
+}
+.verifyBtn{
+    
+    color: white;
+    background-color: grey;
+    font-weight:600;
+}
+.back{
+    border-radius: 5px;
+    width: 5rem;
+    color: white;
+    background-color: grey;
+    font-weight:600;
+}
+.savebtn{
+    width: 6rem;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    background-color: grey;
+}    
+.submit{
+    border-radius: 5px;
+    width: 5rem;
+    color: white;
+    background-color: grey;
+    font-weight:600;
+     
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 240%;
+    max-height: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    overflow-y: auto;
+  }
+ 
+  .dropdown-content button {
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .dropdown-content button:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* CSS for 17-inch Laptop */
+@media screen and (min-width: 1367px) {
+    .advocRightbox {
+        width: 60rem;
+    }
+}
+
+/* CSS for 14-inch Laptop */
+@media screen and (max-width: 1366px) {
+    .advocRightbox {
+        width: 45rem;
+    }
+    .advocLeftbox{
+        width: 22rem;
+    }
+}

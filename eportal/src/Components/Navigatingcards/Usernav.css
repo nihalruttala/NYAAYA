@@ -1,0 +1,230 @@
+
+.userNavmain {
+    background-color: #0c1707;
+    height: 100vh;
+}
+
+
+
+
+.loginNavicon{
+    font-size: 3rem;
+    position: absolute;
+    display: none;
+}
+
+
+
+.usernavbar {
+    background-color: #0c1707;
+    
+}
+
+.loginNavLogo{
+    margin-top: -2.5rem;
+
+}
+.usernavcontainer {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Audiowide', sans-serif;
+    height: 60px;
+    color: #E2DBD3;
+    width: auto;
+}
+
+.usernavbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 12px;
+    margin-top: 34px;
+}
+
+.usernavbar ul li {
+    list-style-type: none;
+    margin: 44px;
+
+}
+
+
+.mainTitle {
+    background-color: #0c1707;
+    color: #A9ACAA;
+    align-items: center;
+    margin-bottom: -50px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Audiowide', sans-serif;
+
+}
+
+.usernavbar ul li a {
+    text-decoration: none;
+    color: #E2DBD3;
+}
+
+.loginCards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #0c1707;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+
+
+}
+
+.advocateloginCard,
+.litigantloginCard,
+.adminloginCard {
+
+    height: 70vh;
+    width: 25vw;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 0.5s;
+
+
+}
+
+.litigantloginCard {
+    background-color: #CDC7BF;
+    color: #0c1707;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.litigantloginCard h3 {
+    font-size: 1.65rem;
+    margin-top: 7.9rem;
+    margin-left: 1rem;
+    
+
+
+}
+
+.advocateloginCard:hover,
+.litigantloginCard:hover,
+.adminloginCard:hover {
+    padding: 5px;
+}
+
+.advocateloginCard p {
+    margin-top: -100px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Audiowide', sans-serif;
+    padding-left: 10px;
+
+}
+
+
+
+
+
+.adminloginCard p {
+    margin-top: -130px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Audiowide', sans-serif;
+    padding-left: 10px;
+
+}
+
+.cardButtons {
+    background-color: #0c1707;
+    opacity: 50%;
+    color: white;
+    font-family: 'Audiowide', sans-serif;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.desc {
+    padding: 0 10px 0 40px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px black;
+
+}
+.litigantloginCard p {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Audiowide', sans-serif;
+    padding-left: 10px;
+}
+@media screen and (min-width: 1367px) {
+    .litigantloginCard p {
+        
+        margin-top: 7.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+    .litigantloginCard p {
+        margin-top: 2.3rem;
+    }
+}
+
+
+/* css for phone */
+
+@media screen and (max-width: 768px) {
+
+    .loginCards {
+        flex-direction: column;
+    }
+
+    .advocateloginCard,
+    .litigantloginCard,
+    .adminloginCard {
+
+        height: 50vh;
+        width: 70vw;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px black;
+        transition: 0.5s;
+
+
+    }
+    .loginNavicon{
+        display: block;
+        cursor: pointer;
+    }
+    .loginNavlogo{
+        display: none;
+    }
+    .usernavbar ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -3rem;
+        top: 1rem;
+        background-color: black;
+        visibility: hidden;
+    }
+    .usernavbar.open  ul {
+        visibility: visible;
+    }
+    
+}

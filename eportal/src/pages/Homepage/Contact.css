@@ -1,0 +1,18 @@
+.contact {
+  background-color: #0c1707;
+  color: #e8dfc5;
+}
+.homecontactContainer{
+  padding: 1.7rem 2rem;
+  
+}
+.contactLeft{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactCopyright{
+  text-align: center;
+}
+
+

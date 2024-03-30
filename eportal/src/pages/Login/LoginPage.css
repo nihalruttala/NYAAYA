@@ -1,0 +1,142 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.advloginContainer {
+  display: flex;
+  background-color: #0c1707;
+  min-height: 100vh; /* Ensure the container covers at least the full viewport height */
+}
+
+.advloginLeft {
+  height: 90vh;
+  width: 60vw;
+  margin: 25px;
+}
+
+.advloginLeft img {
+  background-color: #F1EFEE;
+  opacity: 60%;
+  color: #0c1707;
+}
+#litimage{
+  height: 70vh;
+  margin-top: 5rem;
+}
+#lit{
+  margin: 1rem;
+}
+
+.advloginLeft p {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  margin-top: -230px;
+  opacity: 70%;
+  font-size: 1.3rem;
+  word-spacing: 3px;
+  font-weight: 700;
+  margin-left: 3rem;
+}
+
+.advbuttonsLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img {
+  z-index: 1;
+  margin-left: 3rem;
+}
+
+.sublogin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  float: right;
+  margin-right: 3rem;
+}
+
+.dontText {
+  color: white;
+  z-index: 1;
+  position: absolute;
+}
+
+.advbuttonsLogin button {
+  cursor: pointer;
+}
+
+.loginSignup {
+  margin-top: 34px;
+  z-index: 1;
+}
+
+.advloginLeft button {
+  border-radius: 5px;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.advloginRight {
+  margin: 15px;
+  margin-top: 70px;
+  color: white;
+}
+
+.advloginRight h3 {
+  font-family: 'Audiowide', sans-serif;
+  text-align: center;
+}
+
+.subadvloginRight {
+  height: 500px;
+  width: 500px;
+  padding-top: 50px;
+  padding-left: 100px;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.omg {
+  display: flex;
+  align-items: center;
+}
+
+.omg button {
+  border-radius: 5px;
+  font-family: 'Audiowide', sans-serif;
+  font-size: 0.9rem;
+  color: #0c1707;
+  cursor: pointer;
+  background-color: #A9ACAA;
+}
+
+.x button {
+  text-align: center;
+  color: #0c1707;
+  background-color: #A9ACAA;
+  display: flex;
+  border-radius: 5px;
+  font-family: 'Audiowide', sans-serif;
+  justify-content: center;
+  margin-left: 110px;
+}
+
+.x p {
+  margin-left: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .advloginLeft {
+    display: none;
+  }
+
+  .advloginRight {
+    width: 100vw;
+  }
+}

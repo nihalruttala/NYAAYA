@@ -1,0 +1,78 @@
+.sidebar {
+  padding-top: 1rem;
+  background-color: #0c1707;
+  width: 25vw;
+
+}
+
+
+.Litigantprofile {
+
+  width: 10vw;
+  margin: auto;
+  text-align: center;
+
+}
+
+.profileImg {
+  background-image: url(../../Assets/Profile.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 11rem;
+  width: 11rem;
+
+}
+
+.lsidebarName {
+  font-family: 'Audiowide', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  color: #EAECE1;
+  text-align: start;
+  margin-left: 3rem;
+  margin-top: 5rem;
+
+}
+
+.sidebar li {
+  cursor: pointer;
+  margin-bottom: 45px;
+}
+
+.logout {
+  background-color: #EAECE1;
+  opacity: 80%;
+  color: black;
+  border-radius: 5px;
+
+
+}
+
+.sidebarImg {
+  height: 2rem;
+  width: 2rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+  .sidebar {
+    width: 27vw;
+    float: left;
+  }
+
+
+  .Litigantprofile {
+
+    width: 10vw;
+    margin-left: 5rem;
+  }
+
+  .sidebar ul {
+    margin-left: 0rem;
+  }
+
+}

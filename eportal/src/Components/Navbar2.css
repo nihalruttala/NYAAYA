@@ -1,0 +1,40 @@
+.navbar2{
+    
+    background-color: transparent;
+   
+    font-size: 20px;
+     margin-top: 13rem;
+     margin-bottom: 0;
+   
+}
+.regheads{
+    margin-top: -150px;
+}
+
+.registrationform{
+    
+    margin-left: 50px;
+    font-size: 25px;
+   margin-top: 40px;
+    font-family: 'Audiowide', sans-serif;
+
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.radiogrp{
+    display: flex;
+    padding-right: 7.5rem;
+    justify-content: flex-start;
+}
+.options1{
+    margin-right: 13rem;
+}
+.options2{
+    margin-right: 15rem;
+}
+.options3{
+    margin-right: 20px;
+}

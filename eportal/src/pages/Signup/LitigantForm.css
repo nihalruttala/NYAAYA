@@ -1,0 +1,94 @@
+
+.phoneNote{
+    color: red;
+    background-color: #E8DFC5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 23px;
+}
+
+.phoneNote p{
+    text-align: center;
+    text-decoration: none;
+
+}
+.step{
+    display: flex;
+    padding: 3rem;
+    background-color: #E8DFC5;
+    justify-content: space-between;
+
+}
+
+.litigantLeftbox{
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 25rem;
+    background-color: #eaece1;
+}
+
+/* .tracking{
+    display: flex;
+    font-family: 'Audiowide', sans-serif;
+    padding: 3.5rem;
+    justify-content: center;
+} */
+.litigantRightbox{
+    padding: 3rem;
+    /* height: 40rem; */
+    width: 42rem;
+    background-color: #eaece1;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+.bar{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Audiowide', sans-serif;
+}
+.form-group {
+    margin-bottom: 20px; 
+    text-align: left;
+}
+.col-form-label{
+    font-size: larger;
+}
+.barverify{
+    display: flex;
+}
+.barverify input{
+    margin-right: 1.5rem;
+    flex-grow: 1;
+}
+
+.advbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-check{
+    margin-top: 1.2rem;
+}
+.inputs{
+    margin-top: 23px;
+}
+/* CSS for 17-inch Laptop */
+@media screen and (min-width: 1367px) {
+    .litigantRightbox {
+        width: 60rem;
+    }
+}
+
+/* CSS for 14-inch Laptop */
+@media screen and (max-width: 1366px) {
+    .litigantRightbox {
+        width: 45rem;
+    }
+    .litigantLeftbox{
+        width: 22rem;
+    }
+}  

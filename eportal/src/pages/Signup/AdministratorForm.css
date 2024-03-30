@@ -1,0 +1,92 @@
+.step{
+    display: flex;
+    padding: 3rem;
+    background-color: #E8DFC5;
+    justify-content: space-between;
+
+}
+
+.adminLeftbox{
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 25rem;
+    background-color: #eaece1;
+}
+
+.tracking{
+    display: flex;
+    font-family: 'Audiowide', sans-serif;
+    padding: 3.5rem;
+    justify-content: center;
+}
+.adminRightbox{
+    padding: 3rem;
+    /* height: 40rem; */
+    width: 60rem;
+    background-color: #eaece1;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+.employee_ver button{
+    background-color: grey;
+
+}
+.bar{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'Audiowide', sans-serif;
+}
+.form-group {
+    margin-bottom: 20px; 
+    text-align: left;
+}
+.col-form-label{
+    font-size: larger;
+}
+.barverify{
+    display: flex;
+}
+.barverify input{
+    margin-right: 1.5rem;
+    flex-grow: 1;
+}
+
+.advbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-check{
+    margin-top: 1.2rem;
+}
+.inputs{
+    margin-top: 23px;
+}
+
+/* CSS for 17-inch Laptop */
+@media screen and (min-width: 1367px) {
+    .adminRightbox {
+        width: 60rem;
+    }
+}
+
+/* CSS for 14-inch Laptop */
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+    .adminRightbox {
+        width: 45rem;
+    }
+    .adminLeftbox{
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .adminRightbox {
+        width: 4rem;
+    }
+    .adminLeftbox{
+        width: 1rem;
+    }
+}

@@ -1,0 +1,127 @@
+.chooselawyer {
+ 
+  padding: 34px;
+  background-color:  #E8DFC5;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+
+}
+.chooselawyer::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+.lawyerCard {
+  /* border: 1px solid #ccc; */
+  position: relative;
+  border-radius: 10px;
+  background-color: #C1B192;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Syntax: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: space-evenly;  */
+  /* align-items: center; */
+  width: 100%;
+  /* justify-content: flex-start; */
+}
+
+.lawyer-portfolio {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  background-color: #E8DFC5;
+
+}
+
+#searchbar{
+  margin: 10px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+.lawyerFilter{
+  margin: 10px;
+}
+.lawyerFilter button{
+  border: black;
+  color: white;
+  background-color: #0c1707;
+  opacity: 50%;
+  border-radius: 5px;
+  font-family: 'Outfit', sans-serif;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.cardName{
+  font-family: 'Audiowide', sans-serif;
+  font-size: 2.2rem;
+}
+
+.cardInline{
+  display: flex;
+}
+
+
+/* .lawyerCard img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+  
+} */
+
+.lawyerCard .content {
+  font-family: 'Outfit', sans-serif;
+
+}
+
+/* .lawyerCard .image-container p {
+  margin-top: 10px;
+} */
+
+/* .lawyerRatings{
+  width: 100px;
+  margin: 5px;
+} */
+.cardInline p{
+  font-size: 1.7rem;
+}
+
+/* .image-container{
+  margin-left: -100px;
+} */
+
+
+.rating {
+  position: absolute;
+  top: 1.8rem;
+  right: 1.8rem; /* Adjust as needed */
+}
+
+.content{
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.icon {
+  margin-right: 5px; 
+}
+
+.star{
+  font-size: 30px;
+}
+
+
+.butn{
+  /* flex-direction: row; */
+  background-color: rgba(12, 23, 7, 0.6);
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}

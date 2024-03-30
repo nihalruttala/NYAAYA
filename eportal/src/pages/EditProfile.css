@@ -1,0 +1,34 @@
+.bg{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+
+.r-container{
+    background-color: #EAECE1;
+    width: 500px; 
+    height: 310px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.head{
+    margin: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ops{
+    margin: 0.8rem;
+}
+
+.butn{
+    background-color: rgba(12, 23, 7, 0.6);
+    color: white;
+    margin: 0.8rem;
+    border-radius: 5px;
+}

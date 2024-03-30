@@ -1,0 +1,95 @@
+.caseBox {
+    background-color: #B09067;
+    height: 70rem;
+    border: 1px solid #3c3127;
+    overflow-y: auto; 
+  }
+  
+  .trackCards {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    padding: 10px; 
+  }
+  
+  .trackCard {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #3c3127; 
+    border-radius: 10px;
+    background-color: #B09067;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .trackHeader {
+    background-color: #3c3127;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .trackContent {
+    padding: 10px;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .caseTracking {
+    font-family: 'Audiowide', sans-serif;
+    background-color: #e8dfc5;
+    margin: 1rem auto;
+    width: 100%;
+    padding: 0.7rem;
+  }
+  
+  .ctHeadline {
+    background-color: #3c3127;
+    color: white;
+    height: 2.4rem;
+    border-radius: 5px;
+  }
+  
+  .ctHeadline p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .caseBox {
+    background-color: #B09067;
+    height: 70rem;
+    border: 1px solid #3c3127;
+  }
+  
+  .trackStatus {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .trackIcons {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+  
+  .trackContent p {
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+  
+  .arrow {
+    font-size: 2rem;
+  }
+  
+  .back-btn {
+    margin: 2rem;
+  }
+  
