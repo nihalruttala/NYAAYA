@@ -8,17 +8,20 @@ const AdvCaseDocinfo = () => {
     const [files, setFiles] = useState([]);
     useEffect(() => {
       const fetchFiles = async () => {
-          try {
-              const response = await fetch(`http://localhost:3001/files?cnr=${cnrdata}`);
-              const filesData = await response.json();
-              setFiles(filesData);
-          } catch (error) {
+        try {
+          const response = await fetch(`http://localhost:3001/files?cnr=${cnrdata}`);
+          const filesData = await response.json();
+          setFiles(filesData);
+      } catch (error) {
               console.error(error);
           }
       };
       fetchFiles();
   }, [cnrdata]);
   
+
+
+  //ddd
   const viewFile = async (filename) => {
     try {
       const response = await fetch(`http://localhost:3001/files/${encodeURIComponent(filename)}`);

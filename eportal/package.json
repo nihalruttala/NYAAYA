@@ -22,7 +22,7 @@
     "https-browserify": "^1.0.0",
     "i18next": "^23.7.16",
     "net-browserify": "^0.2.4",
-    "node": "^21.6.2",
+    "node": "^21.7.3",
     "nodemailer": "^6.9.8",
     "os-browserify": "^0.3.0",
     "react": "^18.2.0",
@@ -67,6 +67,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "description": ""
 }

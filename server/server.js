@@ -35,7 +35,7 @@ app.use(express.json());
 // }).catch((err) => {
 //   console.error('MongoDB connection error:', err);
 // });
-// for mongo Atlas { AWS cloud Service}
+// for mongo Atlas { AWS cloud Service}  
 
 mongoose.connect("mongodb+srv://nyaaya160:I98ky9zZvdaRmuzo@cluster0.ocnwsoc.mongodb.net/NYAAYA?retryWrites=true&w=majority", {
   useNewUrlParser: true,
@@ -46,7 +46,7 @@ mongoose.connect("mongodb+srv://nyaaya160:I98ky9zZvdaRmuzo@cluster0.ocnwsoc.mong
   console.error('MongoDB connection error:', err);
 });
 
-
+ 
 //// Advocate signup
 app.post('/signup/advocate', async (req, res) => {
   try {

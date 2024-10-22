@@ -11,7 +11,8 @@ const Advocatesidebar = ({switchComponent}) => {
   const [userData, setUserData] = useState(null);
   const [error, setError] = useState(null);
   const navigate= useNavigate();
-
+  
+  
   useEffect(() => {
     const fetchUserData = async () => {
       try {
